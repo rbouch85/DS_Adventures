@@ -1,0 +1,4 @@
+# Coffee Chats
+So during the pandemic, my colleagues on my broader team at work were looking for ways to connect with each other. People opted into the coffee chat program, and I would randomly pair people up each week. So it became a task to do the matching but make sure that people weren't matched with the same person twice, unless they had already matched with everyone else. I knew there was a way to write a script to help out with this, but because there were enough people that were out week to week because of vacations, I just kept doing it manually. 
+
+Now I want to figure out how to do this in Python. 
