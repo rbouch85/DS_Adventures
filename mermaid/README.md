@@ -9,10 +9,11 @@ I am particularly interested in leveraging this because most data science work t
 
 ```mermaid
 
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+flowchart LR
+    db1[(Database1)]--query-->dc1{{Data Cleaning}};
+    db2[(Database2)]--query-->dc2{{Data Cleaning}};
+    dc1-->id1([Joined Dataset]);
+    dc2-->id1;
+    id1--notebook-->Visualization
     
 ```
